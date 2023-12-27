@@ -1,7 +1,7 @@
-#Endpoints:
+# Endpoints:
 
-##/usuario
+## /usuario
 
-##/productos
+## /productos
 
-##/nuevo-producto
+## /nuevo-producto
