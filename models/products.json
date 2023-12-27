@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "producto": "silla",
+        "stock": "6"
+    },
+    {
+        "id": "2",
+        "producto": "mesa",
+        "stock": "4"
+    },
+    {
+        "id": "3",
+        "producto": "sofa",
+        "stock": "3"
+    }
+]
