@@ -2,6 +2,11 @@
   {
     "user": "user2",
     "nombre": "maria sanchez",
-    "email": "a@gmailc.om"
+    "email": "a@gmail.com"
+  },
+  {
+    "user": "user3",
+    "nombre": "abc cd",
+    "email": "user3@gmail.com"
   }
 ]

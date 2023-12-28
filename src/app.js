@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 
 app.get("/usuario", (req, res) => {
-    res.render("usuario");
+    res.render("usuario", {newUserLink:`http://localhost:${PORT}`});
 });
 
 app.post("/nuevo-usuario", (req, res) => {
@@ -24,6 +24,15 @@ app.post("/nuevo-usuario", (req, res) => {
     res.render("newUser.ejs", {usuario: user});
 });
 
+const newUserLink = "/usuario";
+
+app.get("/nuevo-producto", (req, res) => {
+    res.render("newProduct");
+});
+
+app.get("/products", (req, res) => {
+    res.render("products");
+});
 
 app.listen(PORT, () => {
     console.log(`Escuchando puerto http://localhost:${PORT}`);

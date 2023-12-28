@@ -1,6 +1,24 @@
-<h1>USUARIO CREADO CORRECTAMENTE</h1>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario creado</title>
+</head>
+
+<body><%- include("./partials/header.ejs") %>
+    <h1>USUARIO CREADO CORRECTAMENTE</h1>
 
 
-<h2>Usuario:</h2><%= usuario.user %>
-<h2>Nombre completo:</h2><%= usuario.nombre %>
-<h2>email</h2> <%= usuario.email %>
+    <h2>Usuario:</h2>
+    <%= usuario.user %>
+
+    <h2>Nombre completo:</h2>
+    <%= usuario.nombre %>
+
+    <h2>email</h2>
+    <%= usuario.email %>
+</body>
+
+</html>
