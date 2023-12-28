@@ -1,22 +1,7 @@
 [
   {
-    "name": "Nombre 1",
-    "email": "email@gmail.com"
-  },
-  {
-    "nombre": "user2",
-    "email": "user2@gmail.com"
-  },
-  {
-    "nombre": "user2",
-    "email": "user2@gmail.com"
-  },
-  {
-    "nombre": "hola",
+    "user": "user2",
+    "nombre": "maria sanchez",
     "email": "a@gmailc.om"
-  },
-  {
-    "nombre": "user3",
-    "email": "a2@gmail.com"
   }
 ]
