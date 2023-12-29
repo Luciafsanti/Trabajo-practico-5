@@ -1,12 +1,12 @@
 {
-  "name": "src",
+  "name": "trabajo-practico-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "Permite la creacion de un usuario a través de un formulario que pide y guarda nombre del nuevo usuario, nombre completo de la persona y email",
   "main": "src/app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
-    },
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

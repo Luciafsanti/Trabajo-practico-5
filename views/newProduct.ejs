@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <%- include("./partials/header.ejs") %>
+        <form action="/productos/nuevo-valid" method="post">
+            <label for="productName">Producto</label><input type="text" name="productName" id="productName">
+            <label for="productPrice">Precio</label><input type="number" name="productPrice" id="productPrice">
+            <label for="productStock">Stock</label><input type="number" name="productStock" id="productStock">
+            <button type="submit">Cargar</button>
+        </form>
 </body>
+
 </html>

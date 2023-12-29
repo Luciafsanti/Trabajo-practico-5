@@ -1,17 +1,32 @@
 [
-    {
-        "id": "1",
-        "producto": "silla",
-        "stock": "6"
-    },
-    {
-        "id": "2",
-        "producto": "mesa",
-        "stock": "4"
-    },
-    {
-        "id": "3",
-        "producto": "sofa",
-        "stock": "3"
-    }
+  {
+    "productName": "aaaaa",
+    "productPrice": "4",
+    "productStock": "4",
+    "id": 1
+  },
+  {
+    "productName": "bbbb",
+    "productPrice": "4",
+    "productStock": "4",
+    "id": 2
+  },
+  {
+    "productName": "cccc",
+    "productPrice": "4",
+    "productStock": "4",
+    "id": 3
+  },
+  {
+    "productName": "cccc",
+    "productPrice": "4",
+    "productStock": "4",
+    "id": 4
+  },
+  {
+    "productName": "cccc",
+    "productPrice": "4",
+    "productStock": "4",
+    "id": 5
+  }
 ]
