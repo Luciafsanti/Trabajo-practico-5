@@ -3,7 +3,8 @@ const router = express.Router();
 const products = require("../controllers/productControllers");
 
 router.get("/", (req, res) => {
-    res.render("products");
+    const mostrarProductos = products.showProducts()
+    res.render("products", {mostrarProductos: mostrarProductos});
 });
 
 router.get("/nuevo", (req, res) => {

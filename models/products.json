@@ -1,32 +1,14 @@
 [
   {
-    "productName": "aaaaa",
-    "productPrice": "4",
-    "productStock": "4",
+    "productName": "producto 1",
+    "productPrice": "4000",
+    "productStock": "5",
     "id": 1
   },
   {
-    "productName": "bbbb",
-    "productPrice": "4",
-    "productStock": "4",
+    "productName": "producto 2",
+    "productPrice": "5000",
+    "productStock": "6",
     "id": 2
-  },
-  {
-    "productName": "cccc",
-    "productPrice": "4",
-    "productStock": "4",
-    "id": 3
-  },
-  {
-    "productName": "cccc",
-    "productPrice": "4",
-    "productStock": "4",
-    "id": 4
-  },
-  {
-    "productName": "cccc",
-    "productPrice": "4",
-    "productStock": "4",
-    "id": 5
   }
 ]

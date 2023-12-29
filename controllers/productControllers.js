@@ -21,9 +21,20 @@ const setProduct = (newProduct) => {
     fs.writeFileSync(dataPath, JSON.stringify(products, null, 2));
 }
 
+const showProducts = () => {
+    const products = [...getProducts()];
+    let displayProducts = "";
+    products.map(prod => {
+        displayProducts += "\n" + `ID: ${prod.id}` + '\n' + `Producto: ${prod.productName}` + '\n' + `Precio: ${prod.productPrice}` + "\n" + `Stock: ${prod.productStock}` + "\n";
+    })
+    return displayProducts;
+}
+
+console.log(showProducts());
 
 module.exports = {
     getProducts,
     setProduct,
-    setProductId
+    setProductId,
+    showProducts
 }
