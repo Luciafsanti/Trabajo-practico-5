@@ -9,7 +9,10 @@ const getProducts = () => {
 }
 const setProductId = () => {
     const products = getProducts();
-    const maxId = Math.max(...products.map(p => p.id));
+    let maxId = Math.max(...products.map(p => p.id));
+    if (maxId === -Infinity){
+        maxId = 0;
+    }
     const newProductId = maxId + 1;
     return newProductId;
 }
@@ -24,13 +27,15 @@ const setProduct = (newProduct) => {
 const showProducts = () => {
     const products = [...getProducts()];
     let displayProducts = "";
+    let separador = "-";
+    for (i = 0 ; i<60; i++){
+        separador += "-";
+    }
     products.map(prod => {
-        displayProducts += "\n" + `ID: ${prod.id}` + '\n' + `Producto: ${prod.productName}` + '\n' + `Precio: ${prod.productPrice}` + "\n" + `Stock: ${prod.productStock}` + "\n";
+        displayProducts += "\n" + `ID: ${prod.id}` + '\n' + `Producto: ${prod.productName}` + '\n' + `Precio: ${prod.productPrice}` + "\n" + `Stock: ${prod.productStock}` + "\n" + separador;
     })
     return displayProducts;
 }
-
-console.log(showProducts());
 
 module.exports = {
     getProducts,

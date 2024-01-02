@@ -1,14 +1,14 @@
 [
   {
-    "productName": "producto 1",
-    "productPrice": "4000",
-    "productStock": "5",
+    "productName": "Producto 1",
+    "productPrice": "6500",
+    "productStock": "16",
     "id": 1
   },
   {
-    "productName": "producto 2",
-    "productPrice": "5000",
-    "productStock": "6",
+    "productName": "Producto 2",
+    "productPrice": "5200",
+    "productStock": "21",
     "id": 2
   }
 ]
