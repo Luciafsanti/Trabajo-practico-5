@@ -1,0 +1,17 @@
+[
+  {
+    "user": "user1",
+    "nombre": "a",
+    "email": "a@gmail.com"
+  },
+  {
+    "user": "user2",
+    "nombre": "b",
+    "email": "b@gmail.com"
+  },
+  {
+    "user": "user3",
+    "nombre": "c",
+    "email": "c@gmail.com"
+  }
+]

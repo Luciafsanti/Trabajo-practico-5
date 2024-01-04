@@ -10,5 +10,17 @@
     "productPrice": "5200",
     "productStock": "21",
     "id": 2
+  },
+  {
+    "productName": "Producto 3",
+    "productPrice": "9200",
+    "productStock": "6",
+    "id": 3
+  },
+  {
+    "productName": "Producto 4",
+    "productPrice": "5100",
+    "productStock": "12",
+    "id": 4
   }
 ]
